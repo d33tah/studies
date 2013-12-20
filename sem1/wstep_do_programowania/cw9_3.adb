@@ -1,0 +1,16 @@
+--Zadeklarowac typ wyliczeniowy Stolice, ktorego elementami sa nazwy kilku 
+--europejskich stolic, oraz dwuwymiarowy typ tablicowy Tabela_temperatur 
+--przechowujacy srednie temperatury w stolicach w poszczegolnych kwartalach 
+--(temperatury sa wartosciami rzeczywistymi). Napisac program umozliwiajacy:
+--
+-- * pobranie danych do calej tablicy
+-- * pobranie danych dla wybranego miasta (uzytkownik wprowdza nazwe miasta,
+--   pobierane sa dane dla wszystkich kwartalow)
+-- * pobranie danych dla wybranego kwartalu (uzytkownik wprowadza nr kwartalu,
+--   pobierane sa dane dla wszystkich miast)
+-- * obliczenie sredniej temperatury rocznej w miescie podanym przez usera,[*]
+-- * narysowanie histogramu poziomego przedstawiajacego temperatury w 
+--   poszczegolnych miastach w kwartale podanym przez uzytkownika.
+--
+--Wyboru czynnosci dokonuje uzytkownik; program powinien umozliwiac jej 
+--wielokrotny wybor (mozna dodac dodatkowa opcje - kończenie programu).

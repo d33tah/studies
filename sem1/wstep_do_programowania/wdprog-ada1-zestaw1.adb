@@ -1,0 +1,47 @@
+--Napisac:
+-- * procedure pobierajaca zawartosc niezawezonej tablicy liczb calkowitych 
+--   podanej jako parametr;
+-- * procedure wypisujaca zawartosc niezawezonej tablicy liczb calkowitych 
+--   podanej jako parametr;
+-- * funkcje, ktorej parametrami sa: niezawezona tablica liczb calkowitych T 
+--   oraz liczby calkowite P, K i PR. Funkcja ma zwracac pozycje (indeks) 
+--   najwiekszej liczby wystepujacej we fragmencie tablicy T wyznaczonym przez
+--   parametry P i K (oznaczajace poczatek i koniec zakresu indeksow tego
+--   fragmentu) i stojacej przy tym na miejscu o indeksie: parzystym jesli 
+--   parametr PR ma wartosc 1, a nieparzystym jesli PR ma wartosc 0. Jesli 
+--   P>=K, a wyznaczony w ten sposob fragment tablicy jest pusty lub nie 
+--   zawiera miejsc o szukanych (parzystych lub nieparzystych) indeksach, 
+--   funkcja zwraca wartosc –1; 
+--
+--oraz program tworzacy tablice liczb calkowitych o podanej przez uzytkownika 
+--dlugosci, pobierajacy i wypisujacy jej zawartosc oraz – po pobraniu od 
+--uzytkownika zakresu indeksow wyznaczajacego fragment tablicy – wypisujacy 
+--pozycje najwiekszej liczby w tym fragmencie stojacej na miejscu o indeksie 
+--parzystym oraz pozycje najwiekszej liczby w tym fragmencie stojacej na 
+--miejscu o indeksie nieparzystym. W programie wykorzystac wymienione wyzej 
+--procedury i funkcje. 
+--
+--Jedna z metod sortowania (niemalejaco) ciagow liczb dziala w nastepujacy 
+--sposob: 
+-- 1. znajdujemy najwiekszy element ciagu i przestawiamy go na koniec, a na 
+--    jego miejsce wstawiamy element, ktory dotychczas stal na koncu;
+-- 2. powtarzamy powyzsza czynnosc, ale dzialajac tym razem na fragmencie 
+--    ciagu obejmujacym elementy od pierwszego do przedostatniego;
+-- 3. czynnosc powtarzamy, za kazdym razem dzialajac na fragmencie ciagu o 
+--    jeden krotszym od poprzedniego.
+--
+--Ostatnim krokiem algorytmu jest krok rozpatrujacy fragment zlozony z dwoch 
+--elementow.
+--
+--Rozszerzyc program o:
+-- * procedure zamieniajaca miejscami dwa elementy tablicy. Parametrami 
+--   funkcji ma byc tablica oraz dwie liczby bedace numerami miejsc 
+--   przestawianych elementow;
+-- * procedure modyfikujaca tablice podana jako parametr. Modyfikacja tablicy 
+--   polega na posortowaniu niemalejacym elementow stojacych na miejscach o 
+--   numerach nieparzystych i posortowaniu niemalejacym elementow stojacych 
+--   na miejscach o numerach parzystych (przyklad: tablica 
+--   7, 3, 4, 2, 1, 6, 5, 3 otrzyma postac 1, 2, 4, 3, 5, 3, 7, 6). Procedura 
+--   ma wykorzystywac procedury i funkcje napisane wczesniej.
+--
+--Ostatnia z procedur wykorzystac w programie, modyfikujac tablice pobrana poprzednio od uzytkownika.
